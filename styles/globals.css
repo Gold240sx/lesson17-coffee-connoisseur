@@ -1,9 +1,26 @@
+/* Variables */
+:root {
+  --text-chocolate: #55370A;
+  --text-caramel: #906221;
+  --text-vanilla: rgb(169, 162, 146);
+  --text-med-grey: #222222;
+  --text-black: rgb(0, 0, 0);
+  --text-white: rgb(255, 255, 255);
+  --text-gold: #CFAF1F;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: url("/static/mesh-gradient.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #cfaf0c;
+  height: 100vh;
 }
 
 a {
@@ -13,4 +30,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+footer{
+  text-align: center;
+  justify-content: center;
+  padding-inline: 10px;
 }

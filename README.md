@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+my notes:
+
+Terminal commands (from project creation):
+    npx create-next-app
+        ** Optional (If needed):** npm install next@12
+    cd lesson17-coffee-connoisseur
+    npm run dev
+    npm install react@latest react-dom@latest
+    npm install next@latest
+
 ## Getting Started
 
 First, run the development server:
