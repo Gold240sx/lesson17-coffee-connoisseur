@@ -4,25 +4,24 @@
     margin-bottom: 6em;
 }
 
-.title {
+h1.title {
     letter-spacing: -0.025em;
     font-weight: 800;
-    color: var(--text-black);
 
     font-size: 3rem; /* 48px */
     line-height: 1;
 }
 
-.titlewhite {
-    color: white;
+.title span{
+    color: var(--text-white);
 }
 
-.subTitle {
+.subtitle {
     margin-top: 0.75rem;
     font-size: 1.5rem; /* 24px */
     line-height: 2rem; /* 33px */
 
-    color: var(--text-white-100);
+    color: var(--text-white);
 }
 
 .buttonWrapper {
